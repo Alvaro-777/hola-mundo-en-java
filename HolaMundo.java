@@ -5,8 +5,10 @@
 */
 public class HolaMundo{
 	public static void main(){
-		System.out.print("Cambio");
-		System.out.print("Hola mundo");
-		System.out.print("Modificacion");
+		String naranja = "\033[33m";
+		String azul = "\033[33m";
+
+		System.out.print(naranja +"Hola mundo");
+		System.out.print(azul + "Modificacion");
 	}
 }
